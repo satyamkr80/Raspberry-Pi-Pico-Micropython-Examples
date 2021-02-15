@@ -7,3 +7,4 @@ while True:
     b1 = button.value()
     if not b1:
         print('Button pressed!')
+        utime.sleep(0.5)
