@@ -1,10 +1,10 @@
 from machine import Pin
 import utime
 
-relay1 = Pin(18, Pin.OUT)
-relay2 = Pin(19, Pin.OUT)
-relay3 = Pin(20, Pin.OUT)
-relay4 = Pin(21, Pin.OUT)
+relay1 = Pin(2, Pin.OUT)
+relay2 = Pin(3, Pin.OUT)
+relay3 = Pin(4, Pin.OUT)
+relay4 = Pin(5, Pin.OUT)
 
 while True:
     relay1.toggle()
