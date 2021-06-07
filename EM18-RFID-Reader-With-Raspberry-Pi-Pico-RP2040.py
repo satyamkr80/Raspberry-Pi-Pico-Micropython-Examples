@@ -10,7 +10,7 @@ print("Tap Card Now")
 while True:
     
     Card_ID= uart.read(12)
-    Card_ID = command.decode("utf-8")
+    Card_ID = Card_ID.decode("utf-8")
     if Card_ID:
         print(Card_ID)
         utime.sleep(0.5)
